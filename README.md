@@ -23,7 +23,7 @@ This program calculates the nth Fibonacci number using MIPS assembly.
 
 ## Sample Outputs
 
-| Input (n) | Output (Fibonacci(n)) |
+| Input (n) | Output (Fibonacci(n))- Decimal |
 |-----------|------------------------|
 | 0         | 0                      |
 | 1         | 1                      |
