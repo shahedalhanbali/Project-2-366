@@ -61,10 +61,8 @@ This part of the project implements the `Odd(m)` function using the division-by-
 1. Open the file `odd.asm` in the MARS MIPS Simulator.
 2. Assemble the code (click the gear icon).
 3. Run the code (green play button or press F5).
-4. Modify the value of `m` in the `.data` section to test different cases.
-5. After running:
+4. After running:
    - Check register `$t5` for the result.
-   - Or check memory under the label `result` (typically located at `0x10010004` in the Data Segment).
 
 ## Result:
 - `1` = Odd  
@@ -84,7 +82,7 @@ This part of the project implements the `Odd(m)` function using the division-by-
 This part of the project implements the function `IsFibonacciOdd(n)`, which first calculates the nth Fibonacci number and then checks whether that number is odd using repeated subtraction.
 
 ## How It Works
-- Computes Fibonacci(n) using the same loop as in Part (a).
+- Computeas Fibonacci(n) using the same loop as in Part (a).
 - Passes the result to the Odd-check logic from Part (b).
 - Determines if Fibonacci(n) is odd.
 - The final result (1 for odd, 0 for even) is:
@@ -94,12 +92,10 @@ This part of the project implements the function `IsFibonacciOdd(n)`, which firs
 ## Run Instructions
 1. Open the file `is_fibonacci_odd.asm` in the MARS MIPS Simulator.
 2. Assemble the code.
-3. Modify the value of `n` in the `.data` section.
-4. Run the code.
-5.  After running:
-   - Check register `$t5` for the result.
-   - Or check memory under the label `result` (typically located at `0x10010004` in the Data Segment).
-
+3. Run the code.
+5. After running:
+   - Check register `$t5` for the result
+     
 ## Result:
 - `1` = Odd  
 - `0` = Even
